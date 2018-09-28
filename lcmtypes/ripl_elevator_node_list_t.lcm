@@ -1,0 +1,8 @@
+package ripl;
+
+struct elevator_node_list_t
+{
+      int64_t utime;
+      int32_t count;
+      elevator_node_t elevators[count];
+}

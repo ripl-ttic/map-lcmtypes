@@ -1,0 +1,15 @@
+package ripl;
+
+struct portal_node_t
+{      
+      int32_t node_id;	
+      int8_t type; 
+      double xy0[2];	
+      double xy1[2];	
+      int8_t floor_ind;
+      int8_t floor_no;
+      int64_t create_utime;
+      
+      const int8_t PORTAL_DOOR = 0x00;
+      const int8_t PORTAL_ELEVATOR = 0x01;            
+}

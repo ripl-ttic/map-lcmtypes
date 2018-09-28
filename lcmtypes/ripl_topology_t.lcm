@@ -1,0 +1,9 @@
+package ripl;
+
+struct topology_t
+{
+        int64_t utime;
+        //all the portals in the environment 
+        portal_node_list_t portal_list;
+        place_node_list_t place_list; 
+}

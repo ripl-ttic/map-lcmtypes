@@ -1,0 +1,16 @@
+package ripl;
+
+struct place_node_t
+{      
+      string name;
+      int32_t node_id;	
+      int32_t from_guide; //from guide's perspective
+      string type; //place or object
+      double x;	
+      double y;	
+      double theta;
+      double std;
+      int8_t floor_ind;
+      int8_t floor_no;
+      int64_t create_utime;
+}

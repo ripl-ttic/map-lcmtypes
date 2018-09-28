@@ -1,0 +1,8 @@
+package ripl;
+
+struct floor_status_msg_t
+{
+    int64_t  utime;
+    int32_t  floor_ind;
+    int32_t  floor_no;    
+}

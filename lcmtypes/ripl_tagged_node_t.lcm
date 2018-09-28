@@ -1,0 +1,19 @@
+package ripl;
+
+struct tagged_node_t
+{	
+    int64_t  utime;
+    string   label; //location label	
+    string   type; //type of tagging - place or object	
+    string   dir; //direction with respect to the wheelchair
+    string   view; //with respect to whom (wheelchair/person/both) 
+    string   pos; //where are we in relation to the place/object (in/at, in front of etc)
+    string   prop; //other properties    
+    string   pron; //pronounciation
+    int32_t node_id;	
+    double x;		
+    double y;	
+    double theta;    
+    int32_t floor_index;
+    int32_t floor_no;
+}

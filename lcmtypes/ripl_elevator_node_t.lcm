@@ -1,0 +1,10 @@
+package ripl;
+
+struct elevator_node_t
+{      
+      int32_t floor_ind;
+      int32_t floor_no;	
+      double pos[2];	
+      double door_pos[2];	      
+      int32_t door_det;	      
+}

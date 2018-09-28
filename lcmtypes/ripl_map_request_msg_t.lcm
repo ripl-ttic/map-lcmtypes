@@ -1,0 +1,8 @@
+package ripl;
+
+struct map_request_msg_t
+{
+    int64_t utime;
+    string requesting_prog;
+    int32_t floor_no;
+}

@@ -1,4 +1,4 @@
-package ripl;
+package maplcm;
 
 struct region_change_t
 {
